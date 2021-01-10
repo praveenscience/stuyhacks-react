@@ -17,6 +17,12 @@ class App extends Component {
         <Header dark={this.state.Dark} className="mb-3">
           Stuy Hacks!
         </Header>
+        <Header dark={false} className="mb-3">
+          Stuy Hacks Light!
+        </Header>
+        <Header dark={true} className="mb-3">
+          Stuy Hacks Pro!
+        </Header>
         <div className="container">
           <div className="row">
             <div className="col-12">
